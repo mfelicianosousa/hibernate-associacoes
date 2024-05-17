@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration.dtd">
+
+<hibernate-configuration>
+    <session-factory name="hibernate/sessionFactory">
+        <mapping resource="br/com/mfsdevsystem/onetoone_unidirecional/pessoa_endereco.hbm.xml"/>
+     
+        
+    </session-factory>
+</hibernate-configuration>
